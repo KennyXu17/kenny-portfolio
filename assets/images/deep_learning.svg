@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Deep Learning Icon (thin stroke)</title>
+  <desc id="desc">Rounded-square icon with neural-network nodes and connections, thinner lines.</desc>
+
+  <style>
+    :root{
+      --bg: transparent;        /* e.g., #0b2239 for navy background */
+      --stroke: #D4AF37;        /* gold; or use currentColor */
+      --strokeWidth: 6;         /* thinner lines */
+      --nodeRadius: 14;
+      --corner: 64;
+    }
+    .outline{ fill: var(--bg); }
+    .line{ stroke: var(--stroke); stroke-width: var(--strokeWidth); stroke-linecap: round; stroke-linejoin: round; fill: none; }
+  </style>
+
+  <!-- Rounded background -->
+  <rect class="outline" x="8" y="8" width="496" height="496" rx="64" ry="64"/>
+
+  <!-- Connections -->
+  <g class="line">
+    <line x1="120" y1="96"  x2="256" y2="128"/>
+    <line x1="120" y1="96"  x2="256" y2="208"/>
+    <line x1="120" y1="96"  x2="256" y2="288"/>
+    <line x1="120" y1="96"  x2="256" y2="368"/>
+
+    <line x1="120" y1="176" x2="256" y2="128"/>
+    <line x1="120" y1="176" x2="256" y2="208"/>
+    <line x1="120" y1="176" x2="256" y2="288"/>
+    <line x1="120" y1="176" x2="256" y2="368"/>
+
+    <line x1="120" y1="256" x2="256" y2="128"/>
+    <line x1="120" y1="256" x2="256" y2="208"/>
+    <line x1="120" y1="256" x2="256" y2="288"/>
+    <line x1="120" y1="256" x2="256" y2="368"/>
+
+    <line x1="120" y1="336" x2="256" y2="128"/>
+    <line x1="120" y1="336" x2="256" y2="208"/>
+    <line x1="120" y1="336" x2="256" y2="288"/>
+    <line x1="120" y1="336" x2="256" y2="368"/>
+
+    <line x1="120" y1="416" x2="256" y2="128"/>
+    <line x1="120" y1="416" x2="256" y2="208"/>
+    <line x1="120" y1="416" x2="256" y2="288"/>
+    <line x1="120" y1="416" x2="256" y2="368"/>
+
+    <line x1="256" y1="128" x2="392" y2="176"/>
+    <line x1="256" y1="128" x2="392" y2="256"/>
+    <line x1="256" y1="128" x2="392" y2="336"/>
+
+    <line x1="256" y1="208" x2="392" y2="176"/>
+    <line x1="256" y1="208" x2="392" y2="256"/>
+    <line x1="256" y1="208" x2="392" y2="336"/>
+
+    <line x1="256" y1="288" x2="392" y2="176"/>
+    <line x1="256" y1="288" x2="392" y2="256"/>
+    <line x1="256" y1="288" x2="392" y2="336"/>
+
+    <line x1="256" y1="368" x2="392" y2="176"/>
+    <line x1="256" y1="368" x2="392" y2="256"/>
+    <line x1="256" y1="368" x2="392" y2="336"/>
+  </g>
+
+  <!-- Nodes -->
+  <g class="line">
+    <circle cx="120" cy="96"  r="14" fill="var(--stroke)"/>
+    <circle cx="120" cy="176" r="14" fill="var(--stroke)"/>
+    <circle cx="120" cy="256" r="14" fill="var(--stroke)"/>
+    <circle cx="120" cy="336" r="14" fill="var(--stroke)"/>
+    <circle cx="120" cy="416" r="14" fill="var(--stroke)"/>
+
+    <circle cx="256" cy="128" r="14" fill="var(--stroke)"/>
+    <circle cx="256" cy="208" r="14" fill="var(--stroke)"/>
+    <circle cx="256" cy="288" r="14" fill="var(--stroke)"/>
+    <circle cx="256" cy="368" r="14" fill="var(--stroke)"/>
+
+    <circle cx="392" cy="176" r="14" fill="var(--stroke)"/>
+    <circle cx="392" cy="256" r="14" fill="var(--stroke)"/>
+    <circle cx="392" cy="336" r="14" fill="var(--stroke)"/>
+  </g>
+</svg>
